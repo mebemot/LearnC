@@ -11,7 +11,7 @@ int main()
 
     while ((i = mgetline(line, MAXLINE)) > 0)
     {
-        printf("%s\nline length: %d\n", line, i);
+        printf("%s [%d]\n", line, i);
     }
 
     return 0;

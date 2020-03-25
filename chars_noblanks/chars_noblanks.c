@@ -18,7 +18,11 @@ int main()
     while (mgetline(line, MAXLINE) > 0)
     {
         trim(line);
-        printf("%s\n", line);
+
+        if (length(line) > 0)
+        {
+            printf("%s\n", line);
+        }
     }
     return 0;
 }
@@ -57,9 +61,9 @@ int length(char s[])
 /*trim right:trim trailing blanks*/
 void trim(char s[])
 {
-    int i = length(s) -1;
+    int i = length(s) - 1;
 
-    while (s[i] == ' '|| s[i] == '\t' || s[i] == '\n')
+    while (s[i] == ' ' || s[i] == '\t' || s[i] == '\n')
     {
         --i;
     }
