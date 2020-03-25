@@ -8,12 +8,7 @@ void trim(char s[]);
 /*print longest line*/
 int main()
 {
-    int CurrentLength;     /*current line length*/
-    int CurrentMax;        /*current max line length*/
     char line[MAXLINE];    /*current input line*/
-    char longest[MAXLINE]; /*longest line saved here*/
-
-    CurrentMax = 0;
 
     while (mgetline(line, MAXLINE) > 0)
     {
