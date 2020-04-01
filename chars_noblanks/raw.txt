@@ -1,0 +1,5 @@
+[26 chars 3 blanks @end   ] [26]
+[	tab @ front		middle & end	] [28]
+[] [1]
+[^blank line] [12]
+[] [1]
