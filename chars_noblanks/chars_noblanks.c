@@ -14,7 +14,7 @@ int main()
     {
         trim(line);
 
-        if (length(line) > 0)
+        if (length(line) > 1)
         {
             printf("%s\n", line);
         }
